@@ -1,0 +1,25 @@
+{
+  "name": "@bhovhannes/shared-config",
+  "version": "0.0.0",
+  "description": "My shared configuration for prettier, commitlint, etc.",
+  "files": [
+    "prettier",
+    "commitlint",
+    "lefthook"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhovhannes/shared-config.git"
+  },
+  "keywords": [],
+  "author": "Hovhannes Babayan <bhovhannes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhovhannes/shared-config/issues"
+  },
+  "homepage": "https://github.com/bhovhannes/shared-config#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "11.0.0"
+  }
+}
