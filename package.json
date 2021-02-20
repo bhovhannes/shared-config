@@ -7,12 +7,10 @@
     "commitlint",
     "lefthook"
   ],
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bhovhannes/shared-config.git"
   },
-  "keywords": [],
   "author": "Hovhannes Babayan <bhovhannes@gmail.com>",
   "license": "MIT",
   "bugs": {
