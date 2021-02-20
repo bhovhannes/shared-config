@@ -19,7 +19,7 @@
     "url": "https://github.com/bhovhannes/shared-config/issues"
   },
   "homepage": "https://github.com/bhovhannes/shared-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/config-conventional": "11.0.0"
   }
 }
