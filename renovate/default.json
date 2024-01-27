@@ -1,0 +1,42 @@
+{
+  "extends": ["config:base", ":disableDependencyDashboard"],
+  "schedule": ["before 3am every weekend"],
+  "prHourlyLimit": 0,
+  "separateMajorMinor": true,
+  "separateMinorPatch": true,
+  "automerge": false,
+  "packageRules": [
+    {
+      "extends": ["packages:linters"],
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "matchPackageNames": ["prettier"],
+      "separateMinorPatch": false,
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "matchPackagePrefixes": ["@evilmartians/lefthook", "@commitlint/*"],
+      "labels": ["commit-related tools"],
+      "separateMinorPatch": false,
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "matchPackageNames": ["@bhovhannes/shared-config"],
+      "labels": ["shared configs"],
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePrefixes": ["@types/*"],
+      "labels": ["TypeScript types"],
+      "separateMinorPatch": false,
+      "automerge": true,
+      "automergeType": "branch"
+    }
+  ]
+}

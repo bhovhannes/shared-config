@@ -9,6 +9,15 @@ npm i -DE @bhovhannes/shared-config
 ```
 
 
+### Renovate
+
+In `.renovaterc`:
+```
+{
+  "extends": ["github>bhovhannes/shared-config//renovate/default"]
+}
+```
+
 ### Prettier
 
 In `.prettierrc.js`:
