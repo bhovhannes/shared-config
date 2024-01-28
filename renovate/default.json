@@ -18,7 +18,7 @@
       "automergeType": "branch"
     },
     {
-      "matchPackagePrefixes": ["@evilmartians/lefthook", "@commitlint/*"],
+      "matchPackageNames": ["@evilmartians/lefthook", "@commitlint/cli", "@commitlint/config-conventional"],
       "labels": ["commit-related tools"],
       "separateMinorPatch": false,
       "automerge": true,
