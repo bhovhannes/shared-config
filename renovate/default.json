@@ -1,7 +1,6 @@
 {
   "extends": ["config:base", ":disableDependencyDashboard"],
   "schedule": ["before 3am every weekend"],
-  "prHourlyLimit": 0,
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "automerge": false,
